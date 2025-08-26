@@ -95,11 +95,21 @@ sober = "flatpak run org.vinegarhq.Sober"
 -- Create a launcher widget and a main menu
 
 myawesomemenu = {
-	{ "hotkeys", function() hotkeys_popup.show_help(nil, awful.screen.focused()) end },
+	{
+		"hotkeys",
+		function()
+			hotkeys_popup.show_help(nil, awful.screen.focused())
+		end,
+	},
 	{ "manual", terminal .. " -e man awesome" },
 	{ "edit config", editor_cmd .. " " .. awesome.conffile },
 	{ "restart", awesome.restart },
-	{ "quit", function() awesome.quit() end },
+	{
+		"quit",
+		function()
+			awesome.quit()
+		end,
+	},
 }
 
 mymainmenu = awful.menu({
@@ -291,6 +301,22 @@ globalkeys = gears.table.join(
 			client.focus:raise()
 		end
 	end, { description = "go back", group = "client" }),
+
+	-- Custom keybind  -- Applications -- From DistroTube rc.lua
+	awful.key({ modkey }, "p", function()
+		awful.util.spawn("rofi -show drun")
+	end), --rofi
+	-- Volume
+	awful.key({ modkey }, "=", function()
+		awful.util.spawn("wpctl set-volume -l 1.5 @DEFAULT_AUDIO_SINK@ 1%+")
+	end),
+	awful.key({ modkey }, "-", function()
+		awful.util.spawn("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-")
+	end),
+	-- Flameshot
+	awful.key({ modkey }, "Prtscn", function()
+		awful.util.spawn("flameshot gui")
+	end),
 
 	-- Standard program
 	awful.key({ modkey }, "Return", function()
@@ -558,9 +584,9 @@ client.connect_signal("request::titlebars", function(c)
 		},
 		{ -- Right
 			awful.titlebar.widget.maximizedbutton(c),
-			awful.titlebar.widget.minimizebutton (c),
-			awful.titlebar.widget.closebutton (c),
-			layout = wibox.layout.fixed.horizontal()
+			awful.titlebar.widget.minimizebutton(c),
+			awful.titlebar.widget.closebutton(c),
+			layout = wibox.layout.fixed.horizontal(),
 		},
 		layout = wibox.layout.align.horizontal,
 	})

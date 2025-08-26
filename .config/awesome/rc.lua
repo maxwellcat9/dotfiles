@@ -246,7 +246,6 @@ awful.screen.connect_for_each_screen(function(s)
 		s.mytasklist, -- Middle widget
 		{ -- Right widgets
 			layout = wibox.layout.fixed.horizontal,
-			wibox.widget.systray(),
 			mytextclock,
 			s.mylayoutbox,
 		},
@@ -314,7 +313,7 @@ globalkeys = gears.table.join(
 		awful.util.spawn("wpctl set-volume @DEFAULT_AUDIO_SINK@ 1%-")
 	end),
 	-- Flameshot
-	awful.key({ modkey }, "Prtscn", function()
+	awful.key({ modkey }, "Print", function()
 		awful.util.spawn("flameshot gui")
 	end),
 

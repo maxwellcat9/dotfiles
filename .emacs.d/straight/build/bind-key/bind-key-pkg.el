@@ -1,0 +1,1 @@
+/home/padaru/.emacs.d/straight/repos/bind-key/bind-key-pkg.el

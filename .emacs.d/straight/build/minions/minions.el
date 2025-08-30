@@ -1,0 +1,1 @@
+/home/padaru/.emacs.d/straight/repos/minions/minions.el

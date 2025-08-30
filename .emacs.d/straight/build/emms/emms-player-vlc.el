@@ -1,0 +1,1 @@
+/home/padaru/.emacs.d/straight/repos/emms/emms-player-vlc.el

@@ -1,0 +1,1 @@
+#s(lsp-session ("/home/padaru/dotfiles/.config/awesome" "/home/padaru/.config/awesome" "/home/padaru/projects/programming/lua" "/home/padaru/projects/programming/C") nil #s(hash-table test equal) #s(hash-table test equal) #s(hash-table test equal))

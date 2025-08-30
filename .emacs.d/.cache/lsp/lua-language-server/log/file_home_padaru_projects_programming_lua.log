@@ -1,0 +1,894 @@
+[10:44:36.133][info] [#0:/home/padaru/.emacs.d/.cache/lsp/lua-language-server/main.lua:68]: Lua Lsp startup, root: 	/home/padaru/.emacs.d/.cache/lsp/lua-language-server
+[10:44:36.134][info] [#0:/home/padaru/.emacs.d/.cache/lsp/lua-language-server/main.lua:69]: ROOT:	/home/padaru/.emacs.d/.cache/lsp/lua-language-server
+[10:44:36.134][info] [#0:/home/padaru/.emacs.d/.cache/lsp/lua-language-server/main.lua:70]: LOGPATH:	/home/padaru/.emacs.d/.cache/lsp/lua-language-server/log
+[10:44:36.134][info] [#0:/home/padaru/.emacs.d/.cache/lsp/lua-language-server/main.lua:71]: METAPATH:	/home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta
+[10:44:36.134][info] [#0:/home/padaru/.emacs.d/.cache/lsp/lua-language-server/main.lua:72]: VERSION:	3.15.0
+[10:44:36.182][info] [#0:script/proto/proto.lua:260]: Listen Mode: stdio
+[10:44:36.182][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 2.264 MB
+        # 00 : 2.264 MB
+        # 01 : 0.000 MB
+        # 02 : 0.000 MB
+        # 03 : 0.000 MB
+        # 04 : 0.000 MB
+    --------------- Coroutine ---------------
+        Total:     0
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      0
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[10:44:36.293][info] [#0:script/client.lua:657]: Client init	{
+  capabilities = {
+    general = {
+      positionEncodings = { "utf-32", "utf-16" }
+    },
+    textDocument = {
+      callHierarchy = {
+        dynamicRegistration = false
+      },
+      codeAction = {
+        codeActionLiteralSupport = {
+          codeActionKind = {
+            valueSet = { "", "quickfix", "refactor", "refactor.extract", "refactor.inline", "refactor.rewrite", "source", "source.organizeImports" }
+          }
+        },
+        dataSupport = true,
+        dynamicRegistration = true,
+        isPreferredSupport = true,
+        resolveSupport = {
+          properties = { "edit", "command" }
+        }
+      },
+      completion = {
+        completionItem = {
+          deprecatedSupport = true,
+          documentationFormat = { "markdown", "plaintext" },
+          insertReplaceSupport = true,
+          insertTextModeSupport = {
+            valueSet = { 1, 2 }
+          },
+          labelDetailsSupport = true,
+          resolveAdditionalTextEditsSupport = true,
+          resolveSupport = {
+            properties = { "documentation", "detail", "additionalTextEdits", "command" }
+          },
+          snippetSupport = false
+        },
+        contextSupport = true,
+        dynamicRegistration = true
+      },
+      declaration = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      definition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      diagnostic = {
+        dynamicRegistration = false,
+        relatedDocumentSupport = false
+      },
+      documentLink = {
+        dynamicRegistration = true,
+        tooltipSupport = true
+      },
+      documentSymbol = {
+        hierarchicalDocumentSymbolSupport = true,
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      foldingRange = {
+        dynamicRegistration = true
+      },
+      formatting = {
+        dynamicRegistration = true
+      },
+      hover = {
+        contentFormat = { "markdown", "plaintext" },
+        dynamicRegistration = true
+      },
+      implementation = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      linkedEditingRange = {
+        dynamicRegistration = true
+      },
+      onTypeFormatting = {
+        dynamicRegistration = true
+      },
+      publishDiagnostics = {
+        relatedInformation = true,
+        tagSupport = {
+          valueSet = { 1, 2 }
+        },
+        versionSupport = true
+      },
+      rangeFormatting = {
+        dynamicRegistration = true
+      },
+      references = {
+        dynamicRegistration = true
+      },
+      rename = {
+        dynamicRegistration = true,
+        prepareSupport = true
+      },
+      selectionRange = {
+        dynamicRegistration = true
+      },
+      signatureHelp = {
+        dynamicRegistration = true,
+        signatureInformation = {
+          activeParameterSupport = true,
+          parameterInformation = {
+            labelOffsetSupport = true
+          }
+        }
+      },
+      synchronization = {
+        didSave = true,
+        willSave = true,
+        willSaveWaitUntil = true
+      },
+      typeDefinition = {
+        dynamicRegistration = true,
+        linkSupport = true
+      },
+      typeHierarchy = {
+        dynamicRegistration = true
+      }
+    },
+    window = {
+      showDocument = {
+        support = true
+      },
+      workDoneProgress = true
+    },
+    workspace = {
+      applyEdit = true,
+      codeLens = {
+        refreshSupport = true
+      },
+      configuration = true,
+      diagnostics = {
+        refreshSupport = false
+      },
+      didChangeWatchedFiles = {
+        dynamicRegistration = true
+      },
+      executeCommand = {
+        dynamicRegistration = false
+      },
+      fileOperations = {
+        didCreate = false,
+        didDelete = false,
+        didRename = true,
+        willCreate = false,
+        willDelete = false,
+        willRename = true
+      },
+      symbol = {
+        symbolKind = {
+          valueSet = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26 }
+        }
+      },
+      workspaceEdit = {
+        documentChanges = true,
+        resourceOperations = { "create", "rename", "delete" }
+      },
+      workspaceFolders = true
+    }
+  },
+  clientInfo = {
+    name = "emacs",
+    version = "GNU Emacs 30.1 (build 1, x86_64-pc-linux-gnu, GTK+ Version 3.24.49, cairo version 1.18.4)\n of 2025-08-11"
+  },
+  processId = 4450,
+  rootPath = "/home/padaru/projects/programming/lua",
+  rootUri = "file:///home/padaru/projects/programming/lua",
+  workDoneToken = "1"
+}
+[10:44:36.294][info] [#0:script/language.lua:137]: VSC language: nil
+[10:44:36.294][info] [#0:script/language.lua:138]: LS  language: en-us
+[10:44:36.294][info] [#0:script/workspace/workspace.lua:38]: Workspace init root: 	file:///home/padaru/projects/programming/lua
+[10:44:36.294][info] [#0:script/workspace/workspace.lua:42]: Log path: 	/home/padaru/.emacs.d/.cache/lsp/lua-language-server/log/file_home_padaru_projects_programming_lua.log
+[10:44:36.295][info] [#0:script/workspace/workspace.lua:48]: Workspace create: 	file:///home/padaru/projects/programming/lua
+[10:44:36.611][info] [#0:script/provider/provider.lua:49]: Load config from client	file:///home/padaru/projects/programming/lua
+[10:44:36.611][info] [#0:script/provider/provider.lua:50]: {
+  Lua = {
+    color = {
+      mode = "Semantic"
+    },
+    completion = {
+      callSnippet = "Disable",
+      displayContext = 6,
+      enable = true,
+      keywordSnippet = "Replace",
+      workspaceWord = true
+    },
+    develop = {
+      debuggerPort = 11412,
+      debuggerWait = false,
+      enable = false
+    },
+    diagnostics = {
+      enable = true,
+      workspaceDelay = 0,
+      workspaceRate = 100
+    },
+    hint = {
+      enable = false,
+      paramName = true,
+      paramType = true
+    },
+    hover = {
+      enable = true,
+      fieldInfer = 3000,
+      previewFields = 100,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    intelliSense = {
+      searchDepth = 0
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      path = { "?.lua", "?/init.lua", "?/?.lua" },
+      version = "Lua 5.4"
+    },
+    signatureHelp = {
+      enable = true
+    },
+    telemetry = {
+      enable = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      maxPreload = 1000,
+      preloadFileSize = 100,
+      useGitIgnore = true
+    }
+  },
+  ["files.associations"] = false,
+  ["files.exclude"] = false
+}
+[10:44:36.713][info] [#0:script/provider/completion.lua:43]: Enable completion.
+[10:44:36.713][info] [#0:script/provider/provider.lua:65]: Load config from client	fallback
+[10:44:36.714][info] [#0:script/provider/provider.lua:66]: {
+  Lua = {
+    color = {
+      mode = "Semantic"
+    },
+    completion = {
+      callSnippet = "Disable",
+      displayContext = 6,
+      enable = true,
+      keywordSnippet = "Replace",
+      workspaceWord = true
+    },
+    develop = {
+      debuggerPort = 11412,
+      debuggerWait = false,
+      enable = false
+    },
+    diagnostics = {
+      enable = true,
+      workspaceDelay = 0,
+      workspaceRate = 100
+    },
+    hint = {
+      enable = false,
+      paramName = true,
+      paramType = true
+    },
+    hover = {
+      enable = true,
+      fieldInfer = 3000,
+      previewFields = 100,
+      viewNumber = true,
+      viewString = true,
+      viewStringMax = 1000
+    },
+    intelliSense = {
+      searchDepth = 0
+    },
+    runtime = {
+      fileEncoding = "utf8",
+      path = { "?.lua", "?/init.lua", "?/?.lua" },
+      version = "Lua 5.4"
+    },
+    signatureHelp = {
+      enable = true
+    },
+    telemetry = {
+      enable = false
+    },
+    window = {
+      progressBar = true,
+      statusBar = true
+    },
+    workspace = {
+      ignoreDir = { ".vscode" },
+      ignoreSubmodules = true,
+      maxPreload = 1000,
+      preloadFileSize = 100,
+      useGitIgnore = true
+    }
+  },
+  ["files.associations"] = false,
+  ["files.exclude"] = false
+}
+[10:44:36.856][info] [#0:script/library.lua:212]: Init builtin library at:	file:///home/padaru/projects/programming/lua
+[10:44:36.880][info] [#0:script/library.lua:212]: Init builtin library at:	nil
+[10:44:36.993][info] [#0:script/workspace/workspace.lua:330]: Preload start:	file:///home/padaru/projects/programming/lua
+[10:44:37.001][info] [#0:script/workspace/workspace.lua:336]: Scan files at:	file:///home/padaru/projects/programming/lua
+[10:44:37.003][info] [#0:script/workspace/workspace.lua:330]: Preload start:	<fallback>
+[10:44:37.018][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[10:44:37.019][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[10:44:37.020][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[10:44:37.021][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[10:44:37.022][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[10:44:37.022][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[10:44:37.023][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[10:44:37.023][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[10:44:37.023][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[10:44:37.024][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[10:44:37.024][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[10:44:37.024][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[10:44:37.025][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[10:44:37.025][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[10:44:37.025][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[10:44:37.026][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[10:44:37.026][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[10:44:37.026][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[10:44:37.027][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[10:44:37.027][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[10:44:37.027][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[10:44:37.028][info] [#0:script/workspace/workspace.lua:359]: Scan library at:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[10:44:37.128][info] [#0:script/workspace/workspace.lua:385]: Found 11 files at:	<fallback>
+[10:44:37.128][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	<fallback>
+[10:44:37.128][info] [#0:script/workspace/workspace.lua:385]: Found 19 files at:	file:///home/padaru/projects/programming/lua
+[10:44:37.129][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/padaru/projects/programming/lua
+[10:44:37.132][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua , size = 5.234 KB
+[10:44:37.150][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[10:44:37.150][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua , size = 2.386 KB
+[10:44:37.156][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[10:44:37.156][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/string.lua
+[10:44:37.156][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/utf8.lua
+[10:44:37.157][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua , size = 2.944 KB
+[10:44:37.163][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[10:44:37.163][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/package.lua
+[10:44:37.163][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua , size = 8.542 KB
+[10:44:37.176][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[10:44:37.176][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/math.lua
+[10:44:37.176][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua , size = 7.637 KB
+[10:44:37.183][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[10:44:37.183][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/debug.lua
+[10:44:37.183][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua , size = 4.445 KB
+[10:44:37.189][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[10:44:37.189][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua , size = 2.590 KB
+[10:44:37.191][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[10:44:37.191][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/table.lua
+[10:44:37.191][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/coroutine.lua
+[10:44:37.191][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua , size = 5.611 KB
+[10:44:37.195][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[10:44:37.195][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua , size = 0.302 KB
+[10:44:37.195][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[10:44:37.195][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/os.lua
+[10:44:37.195][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/builtin.lua
+[10:44:37.195][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua , size = 15.841 KB
+[10:44:37.207][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[10:44:37.207][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[10:44:37.207][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/basic.lua
+[10:44:37.207][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua , size = 6.364 KB
+[10:44:37.216][info] [#0:script/workspace/loading.lua:112]: ++++As library of:	file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[10:44:37.216][info] [#0:script/workspace/loading.lua:97]: Skip loaded file: file:///home/padaru/.emacs.d/.cache/lsp/lua-language-server/meta/Lua%205.4%20en-us%20utf8/io.lua
+[10:44:37.216][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:37.317][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.096] sec: <fallback>
+[10:44:37.317][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: <fallback>
+[10:44:37.317][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	<fallback>
+[10:44:37.317][info] [#0:script/workspace/workspace.lua:387]: Preload finish at:	<fallback>
+[10:44:37.323][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/answering_module.lua , size = 0.194 KB
+[10:44:37.325][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/remembers_strings_module.lua , size = 0.626 KB
+[10:44:37.328][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/remembers_strings_and_numbers_module.lua , size = 0.247 KB
+[10:44:37.330][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/remembers_number_module.lua , size = 0.569 KB
+[10:44:37.332][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/sleep_module.lua , size = 0.098 KB
+[10:44:37.333][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/clear_screen_module.lua , size = 0.300 KB
+[10:44:37.335][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/modules/animation_module.lua , size = 0.960 KB
+[10:44:37.439][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.118] sec: file:///home/padaru/projects/programming/lua
+[10:44:37.439][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/padaru/projects/programming/lua
+[10:44:37.439][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/padaru/projects/programming/lua
+[10:44:37.439][info] [#0:script/workspace/workspace.lua:387]: Preload finish at:	file:///home/padaru/projects/programming/lua
+[10:44:37.445][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/padaru/projects/programming/lua], files count:[19]
+[10:44:37.555][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/padaru/projects/programming/lua] finished, takes [0.054] sec.
+[10:44:41.539][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:46.231][info] [#0:script/workspace/workspace.lua:290]: Scan files at:	file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:46.232][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:46.232][info] [#0:script/workspace/loading.lua:88]: Skip loaded file: file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:46.232][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.000] sec: file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:46.232][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:46.232][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:44:47.238][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/padaru/projects/programming/lua], files count:[19]
+[10:44:47.361][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/padaru/projects/programming/lua] finished, takes [0.070] sec.
+[10:53:59.284][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/animation_module.lua
+[10:53:59.284][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/answering_module.lua
+[10:53:59.284][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/clear_screen_module.lua
+[10:53:59.285][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/map_module.lua
+[10:53:59.285][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/remembers_number_module.lua
+[10:53:59.285][info] [#0:script/provider/diagnostic.lua:171]: clearDiagnostics	file:///home/padaru/projects/programming/lua/modules/remembers_strings_and_numbers_module.lua
+[10:53:59.286][info] [#0:script/workspace/workspace.lua:290]: Scan files at:	file:///home/padaru/projects/programming/lua/starting_projects
+[10:53:59.292][info] [#0:script/workspace/loading.lua:160]: Load files from disk:	file:///home/padaru/projects/programming/lua/starting_projects
+[10:53:59.292][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/answering_module.lua , size = 0.194 KB
+[10:53:59.294][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/remembers_strings_module.lua , size = 0.626 KB
+[10:53:59.297][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/remembers_strings_and_numbers_module.lua , size = 0.247 KB
+[10:53:59.299][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/remembers_number_module.lua , size = 0.569 KB
+[10:53:59.302][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/sleep_module.lua , size = 0.098 KB
+[10:53:59.304][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/clear_screen_module.lua , size = 0.300 KB
+[10:53:59.306][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/animation_module.lua , size = 0.960 KB
+[10:53:59.310][info] [#0:script/workspace/loading.lua:100]: Preload file at: file:///home/padaru/projects/programming/lua/starting_projects/map_module.lua , size = 0.459 KB
+[10:53:59.312][info] [#0:script/workspace/loading.lua:172]: Loaded files takes [0.021] sec: file:///home/padaru/projects/programming/lua/starting_projects
+[10:53:59.312][info] [#0:script/workspace/loading.lua:181]: Compile files takes [0.000] sec: file:///home/padaru/projects/programming/lua/starting_projects
+[10:53:59.312][info] [#0:script/workspace/loading.lua:182]: Loaded finish:	file:///home/padaru/projects/programming/lua/starting_projects
+[10:53:59.493][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/padaru/projects/programming/lua], files count:[19]
+[10:53:59.498][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/padaru/projects/programming/lua], files count:[19]
+[10:53:59.503][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/padaru/projects/programming/lua], files count:[19]
+[10:53:59.507][info] [#0:script/provider/diagnostic.lua:560]: Diagnostics scope [file:///home/padaru/projects/programming/lua], files count:[19]
+[10:53:59.615][info] [#0:script/provider/diagnostic.lua:577]: Diagnostics scope [file:///home/padaru/projects/programming/lua] finished, takes [0.039] sec.
+[10:54:36.193][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.768 MB
+        # 00 : 6.468 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     10
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      10
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:04:36.201][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.806 MB
+        # 00 : 6.505 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:14:36.215][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.809 MB
+        # 00 : 6.509 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:24:36.235][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.813 MB
+        # 00 : 6.513 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:34:36.256][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.817 MB
+        # 00 : 6.517 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:44:36.275][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.821 MB
+        # 00 : 6.521 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[11:54:36.294][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.825 MB
+        # 00 : 6.525 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:04:36.317][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.829 MB
+        # 00 : 6.529 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:14:36.335][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.832 MB
+        # 00 : 6.532 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:24:36.350][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.836 MB
+        # 00 : 6.536 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:34:36.462][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.840 MB
+        # 00 : 6.540 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:44:36.585][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.844 MB
+        # 00 : 6.544 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[12:54:36.706][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.848 MB
+        # 00 : 6.548 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:04:36.824][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.851 MB
+        # 00 : 6.551 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:14:36.913][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.855 MB
+        # 00 : 6.555 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:24:36.998][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.859 MB
+        # 00 : 6.559 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:34:37.083][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.863 MB
+        # 00 : 6.563 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:44:37.158][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.867 MB
+        # 00 : 6.567 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[13:54:37.244][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.871 MB
+        # 00 : 6.571 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================
+[14:04:37.354][info] [#0:script/service/service.lua:145]: 
+========= Medical Examination Report =========
+    --------------- Memory ---------------
+        Total: 6.874 MB
+        # 00 : 6.574 MB
+        # 01 : 0.053 MB
+        # 02 : 0.097 MB
+        # 03 : 0.053 MB
+        # 04 : 0.098 MB
+    --------------- Coroutine ---------------
+        Total:     23
+        Running:   0
+        Suspended: 0
+        Normal:    0
+        Dead:      23
+    --------------- Cache ---------------
+        Total: 1
+        Dead:  0
+    ---------------  RPC  ---------------
+        Holdon:   0
+        Waiting:  0
+==============================================

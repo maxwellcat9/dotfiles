@@ -1,0 +1,115 @@
+;;; -*- coding: utf-8; mode: lisp-data -*-
+(("/home/padaru/.emacs.d/"
+  (dired-filename . "/home/padaru/.emacs.d/emacs.org"))
+ ("/home/padaru/.emacs.d/elpa_config" . 1338)
+ ("/home/padaru/.emacs.d/emacs.org" . 7040)
+ ("/home/padaru/.emacs.d/init.el" . 10418)
+ ("/home/padaru/projects/org/"
+  (dired-filename . "/home/padaru/projects/org/tasks.org"))
+ ("/su:root@bwekh:/etc/locale.gen" . 877)
+ ("/home/padaru/.xinitrc" . 201)
+ ("/home/padaru/.config/"
+  (dired-filename . "/home/padaru/.config/awesome"))
+ ("/home/padaru/art/" (dired-filename . "/home/padaru"))
+ ("/home/padaru/" (dired-filename . "/home/padaru/projects"))
+ ("/home/padaru/projects/"
+  (dired-filename . "/home/padaru/projects/programming"))
+ ("/home/padaru/projects/programming/"
+  (dired-filename . "/home/padaru/projects/programming/custom"))
+ ("/home/padaru/projects/programming/custom/"
+  (dired-filename . "/home/padaru/projects/programming/custom/themes"))
+ ("/home/padaru/projects/programming/custom/themes/"
+  (dired-filename
+   . "/home/padaru/projects/programming/custom/themes/wallpaper"))
+ ("/home/padaru/projects/programming/custom/themes/wallpaper/"
+  (dired-filename
+   . "/home/padaru/projects/programming/custom/themes/wallpaper"))
+ ("/home/padaru/.config/picom/"
+  (dired-filename . "/home/padaru/.config/picom/picom.conf"))
+ ("/home/padaru/projects/org/habits.org" . 1787)
+ ("/etc/portage/make.conf" . 1050)
+ ("/etc/portage/" (dired-filename . "/etc/portage/package.use"))
+ ("/etc/portage/package.use/"
+  (dired-filename . "/etc/portage/package.use/emacs"))
+ ("/etc/portage/package.use/emacs" . 25)
+ ("/su:root@bwekh:/etc/portage/package.use/"
+  (dired-filename . "/su:root@bwekh:/etc/portage/package.use/emacs"))
+ ("/su:root@bwekh:/etc/portage/"
+  (dired-filename . "/su:root@bwekh:/etc/portage/profile"))
+ ("/su:root@bwekh:/etc/portage/profile/package.use.force/"
+  (dired-filename . "/su:root@bwekh:/etc/portage/profile"))
+ ("/su:root@bwekh:/etc/portage/profile/"
+  (dired-filename
+   . "/su:root@bwekh:/etc/portage/profile/package.use.force"))
+ ("/su:root@bwekh:/etc/portage/package.use/emacs" . 45)
+ ("/su:root@bwekh:/etc/portage/profile/package.use.mask" . 57)
+ ("/home/padaru/projects/programming/C/" . 135)
+ ("/home/padaru/projects/org/tasks.org" . 19)
+ ("/home/padaru/temp/" (dired-filename . "/home/padaru/temp/.github"))
+ ("/home/" (dired-filename . "/home/padaru"))
+ ("/home/padaru/.saves/"
+  (dired-filename . "/home/padaru/.saves/!home!padaru!.xinitrc~"))
+ ("/home/padaru/projects/org/archive.org" . 193)
+ ("/home/padaru/projects/org/help.org" . 257)
+ ("/home/padaru/document/hello.org" . 42)
+ ("/home/padaru/Downloads/" (dired-filename . "/home/padaru"))
+ ("/home/padaru/document/"
+  (dired-filename . "/home/padaru/document/audacity"))
+ ("/home/padaru/.Xresources" . 68)
+ ("/home/padaru/projects/programming/custom/themes/terminal/"
+  (dired-filename
+   . "/home/padaru/projects/programming/custom/themes/terminal/st"))
+ ("/home/padaru/.emacs.d/themes/"
+  (dired-filename
+   . "/home/padaru/.emacs.d/themes/aalto-light-theme.el"))
+ ("/home/padaru/.Xmodmap" . 93) ("/home/padaru/txt/thing" . 701)
+ ("/home/padaru/txt/sicp/"
+  (dired-filename . "/home/padaru/txt/sicp/chapter_1"))
+ ("/home/padaru/txt/sicp/chapter_1/"
+  (dired-filename
+   . "/home/padaru/txt/sicp/chapter_1/what_i_know_prior"))
+ ("/home/padaru/txt/sicp/chapter_1/what_i_know_prior" . 67)
+ ("/home/padaru/txt/" (dired-filename . "/home/padaru/txt/sicp"))
+ ("/home/padaru/Downloads/Untitled spreadsheet - Sheet1.csv" . 17)
+ ("/home/padaru/txt/deepwoken_builds/"
+  (dired-filename
+   . "/home/padaru/txt/deepwoken_builds/bloodrend_spear"))
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/"
+  (dired-filename
+   . "/home/padaru/txt/deepwoken_builds/bloodrend_spear/char"))
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/blo" . 5)
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/char" . 1283)
+ ("/home/padaru/.cargo/bin/"
+  (dired-filename . "/home/padaru/.cargo/bin/1745121078.png"))
+ ("/home/padaru/art/schoo_projects/"
+  (dired-filename
+   . "/home/padaru/art/schoo_projects/red_dress_project"))
+ ("/home/padaru/art/schoo_projects/red_dress_project/"
+  (dired-filename . "/home/padaru/art/schoo_projects"))
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/will" . 1253)
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/int" . 968)
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/str" . 1827)
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/for" . 1475)
+ ("/home/padaru/txt/deepwoken_builds/bloodrend_spear/agi" . 2389)
+ (#("/su:root@bwekh:/etc/security/limits.conf" 4 8 (tramp-default t) 9
+    14 (tramp-default t))
+  . 2452)
+ ("/" (dired-filename . "/bin")) ("/etc/hosts" . 1598)
+ (#("/su:root@bwekh:/etc/hosts" 4 8 (tramp-default t) 9 14
+    (tramp-default t))
+  . 1247)
+ ("/etc/portage/package.accept_keywords/zzz_autounmask" . 435)
+ ("/etc/portage/package.accept_keywords/"
+  (dired-filename . "/etc/portage/package.accept_keywords/steam"))
+ ("/home/padaru/.config/awesome/"
+  (dired-filename . "/home/padaru/.config/awesome/rc.lua"))
+ ("/home/padaru/.config/awesome/rc.lua" . 9163)
+ ("/sudo:root@bwekh:/etc/portage/"
+  (dired-filename
+   . "/sudo:root@bwekh:/etc/portage/package.accept_keywords"))
+ ("/sudo:root@bwekh:/etc/portage/package.accept_keywords/"
+  (dired-filename
+   . "/sudo:root@bwekh:/etc/portage/package.accept_keywords/lutris"))
+ ("/sudo:root@bwekh:/etc/portage/package.accept_keywords/scrcpy" . 30)
+ ("/home/padaru/.bashrc" . 590)
+ ("/var/lib/portage/" (dired-filename . "/var/lib/portage/world")))

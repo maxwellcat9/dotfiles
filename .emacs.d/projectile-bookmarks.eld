@@ -1,0 +1,1 @@
+("~/dotfiles/" "~/programs/picom-shaders/" "/etc/")

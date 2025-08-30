@@ -1,0 +1,1 @@
+/home/padaru/.emacs.d/straight/repos/tree-sitter-langs/tree-sitter-langs.el

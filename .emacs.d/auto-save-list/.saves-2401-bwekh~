@@ -1,0 +1,8 @@
+/su:root@bwekh:/etc/portage/profile/package.use.mask
+/tmp/#!su:root@bwekh:!etc!portage!profile!package.use.mask#
+/su:root@bwekh:/etc/portage/package.use/emacs
+/tmp/#!su:root@bwekh:!etc!portage!package.use!emacs#
+/etc/portage/package.use/emacs
+/etc/portage/package.use/#emacs#
+/etc/portage/make.conf
+/etc/portage/#make.conf#

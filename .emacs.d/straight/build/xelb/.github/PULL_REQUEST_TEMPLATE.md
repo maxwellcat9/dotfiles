@@ -1,0 +1,1 @@
+/home/padaru/.emacs.d/straight/repos/xelb/.github/PULL_REQUEST_TEMPLATE.md

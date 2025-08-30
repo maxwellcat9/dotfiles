@@ -1,0 +1,8 @@
+/etc/portage/package.accept_keywords/zzz_autounmask
+/etc/portage/package.accept_keywords/#zzz_autounmask#
+/etc/portage/package.accept_keywords/steam
+/etc/portage/package.accept_keywords/#steam#
+/etc/portage/package.accept_keywords/lutris
+/etc/portage/package.accept_keywords/#lutris#
+/etc/portage/package.accept_keywords/scrcpy
+/etc/portage/package.accept_keywords/#scrcpy#
